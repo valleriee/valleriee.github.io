@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Website</title>
+    <meta
+      name="description"
+      content="Personal Website"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-grid">
+        <div class="identity">
+          <img
+            class="avatar"
+            src="assets/profile.jpg"
+            alt="Portrait"
+            width="220"
+            height="220"
+          />
+        </div>
+
+        <div class="intro">
+          <p class="kicker">Undergraduate • Aspiring Researcher</p>
+          <h1>Vallerie Alexandra Putra</h1>
+
+          <div class="quick-links" aria-label="Primary links">
+            <a class="chip" href="mailto:vallerie.putra@binus.ac.id">Email</a>
+            <a class="chip" href="https://www.linkedin.com/in/vallerie-alexandra-putra" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="chip" href="https://github.com/valleriee" target="_blank" rel="noopener">GitHub</a>
+            <a class="chip" href="https://drive.google.com/file/d/1NzVUn6Aqc39pIV-jpPTM3U_r6BCn15tX/view?usp=sharing" target="_blank" rel="noopener">CV</a>
+          </div>
+
+          <nav class="nav" aria-label="Section navigation">
+            <a href="#about">About</a>
+            <a href="#interests">Research</a>
+            <a href="#publications">Publications</a>
+            <a href="#misc">Misc</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p>
+          Hello, I’m <strong>Vallerie Alexandra Putra</strong>, a Computer Science undergraduate student at
+          Bina Nusantara University, Indonesia. 
+        </p>
+        <!-- <p class="muted">
+          ...
+        </p> -->
+      </section>
+
+      <section id="interests" class="card">
+        <h2>Research Interests</h2>
+        <p>
+          I am interested in <strong>NLP</strong>, <strong>Speech Technology</strong>, <strong>Linguistics</strong>, and
+          <strong>LLMs</strong>, particularly in <strong>reasoning</strong>, <strong>interpretability</strong>, and
+          <strong>model trustworthiness</strong>, to support more reliable, responsible, and fair language technologies.
+        </p>
+
+        <!-- <div class="note">
+          <p>
+            <strong>Currently exploring:</strong> ...papers...projects
+          </p>
+        </div> -->
+      </section>
+
+      <section id="publications" class="card">
+        <h2>Publications</h2>
+
+        <ol class="pub-list">
+          <li class="pub">
+            <div class="pub-main">
+              <span class="pub-title">BUINUS at IWSLT: Evaluating the Impact of Data Augmentation and QLoRA-based Fine-Tuning for Maltese to English Speech Translation</span>
+              <span class="pub-venue">Poceedings of the 22nd International Conference on Spoken Language Translation (IWSLT), 2025</span>
+            </div>
+            <div class="pub-meta">
+              <span class="pub-authors">Filbert Aurelian Tjiaranata, Vallerie Alexandra Putra, Eryawan Presma Yulianrifat, and Ikhlasul Akmal Hanif</span>
+              <span class="pub-links">
+                <a href="https://aclanthology.org/2025.iwslt-1.26" target="_blank" rel="noopener">Paper</a>
+                <!-- <span aria-hidden="true">·</span> -->
+                <!-- <a href="https://arxiv.org/" target="_blank" rel="noopener">arXiv</a>
+                <span aria-hidden="true">·</span>
+                <a href="https://github.com/" target="_blank" rel="noopener">Code</a> -->
+              </span>
+            </div>
+          </li>
+
+          <li class="pub">
+            <div class="pub-main">
+              <span class="pub-title">Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures</span>
+              <span class="pub-venue">MRL Workshop, 2025</span>
+            </div>
+            <div class="pub-meta">
+              <span class="pub-authors">Tyler A. Chang, Catherine Arnett, Abdelrahman Eldesokey, Abdelrahman Sadallah, Abeer Kashar, Abolade Daud, Abosede Grace Olanihun, ..., Vallerie Alexandra Putra, ..., David Ifeoluwa Adelani</span>
+              <span class="pub-links">
+                <a href="https://arxiv.org/abs/2510.24081" target="_blank" rel="noopener">Paper</a>
+              </span>
+            </div>
+          </li>
+
+          <li class="pub">
+            <div class="pub-main">
+              <span class="pub-title">CommonLID: Re-evaluating State-of- the-Art Language Identification Performance on Web Data</span>
+              <span class="pub-venue">Workshop on Multilingual Data Quality Signals, 2025</span>
+            </div>
+            <div class="pub-meta">
+              <span class="pub-authors">Pedro Ortiz Suarez, Laurie Burchell, Catherine Arnett, Rafael Mosquera-Gómez, Sara Hincapie-Monsalve, ..., Vallerie Alexandra Putra, ..., Sarah Luger</span>
+              <span class="pub-links">
+                <a href="https://www.arxiv.org/abs/2601.18026" target="_blank" rel="noopener">Paper</a>
+              </span>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="misc" class="card">
+        <h2>Miscellaneous</h2>
+        <ul class="nice-list">
+          <li>I have a poodle named Bruno 🐶</li>
+          <li>I love cooking and exploring recipes 👩‍🍳</li>
+          <li>Bad at photography 🥲</li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <p class="muted">
+          Last updated: <time datetime="2026-02-13">February 13, 2026</time>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
