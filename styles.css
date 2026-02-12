@@ -149,6 +149,13 @@ h2{
   font-size: 20px;
 }
 
+.card h2 {
+  display: inline-block;      /* makes width fit text */
+  padding-bottom: 6px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+  margin-bottom: 14px;
+}
+
 .muted{ color: var(--muted); }
 
 .note{
@@ -186,15 +193,14 @@ h2{
   background: rgba(255,255,255,0.75);
 }
 .pub-main{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: baseline;
+  display: block;
 }
 .pub-title{
   font-weight: 700;
 }
 .pub-venue{
+  display: block;
+  margin-top: 4px;
   color: var(--muted);
   font-size: 0.95rem;
 }
